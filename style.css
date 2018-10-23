@@ -1,0 +1,52 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body, html {
+    height: 100%;
+}
+
+.navbar {
+    background-color:  #fdd1d0; 
+}
+
+.start {
+    /* really important to define min-height to show the background image */
+    min-height: 700px;
+    background: url(./image/bg.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul,.navbar-brand, .container p {
+    text-transform:  uppercase;
+}
+
+.container {
+    color: whitesmoke; 
+}
+
+.line {
+    width: 50px !important;
+    height: 3px;
+    background-color: coral;
+}
+
+.btn {
+    border-radius: 45px !important;
+    padding: 13px 30px 15px 30px !important;
+}
+
+.btn span {
+    font-size: 15px !important;
+}
+
+.s1 {
+    background-color: #4f7e8f;
+    color: #fff;
+}
+
+.p2 {
+    /* background-color: #fff;   */
+}
